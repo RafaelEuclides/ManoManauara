@@ -1,0 +1,70 @@
+.titulo{
+  font-size: 32px;
+  color: #2b4d35;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 30px 20px;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.secao1 {
+  text-align: center;
+  width: 250px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.secao1:hover {
+  transform: scale(1.03);
+}
+
+.secao1 h2 {
+  font-size: 20px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 10px 0;
+  color: #2b4d35;
+}
+
+.secao1 img {
+  display: flex;
+  width: 300px;
+  height: 200px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+.secao1 img:hover {
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+.paginacao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 30px 0;
+}
+
+.btn.pag {
+  padding: 10px 15px;
+  font-size: 18px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn.pag:hover {
+  background-color: #eee;
+}
